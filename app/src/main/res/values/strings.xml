@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">M3Settings</string>
+
+
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_wireless_hotspot">WLAN热点</string>
+    <string name="mobile_network">移动网络</string>
+    <string name="flow_use_information">流量使用</string>
+    <string name="application_settings">应用设置</string>
+    <string name="adjust_settings">调节设置</string>
+    <string name="bluetooth_settings">蓝牙</string>
+    <string name="storage_capacity">存储容量</string>
+    <string name="about_device">关于设备</string>
+    <string name="personne_settings">个人设置</string>
+    <string name="backup_reset">备份和重置</string>
+    <string name="mode_change">模式切换</string>
+
+    <string name="network_error_message">无网络</string>
+
+    <string name="mobile_switch">移动数据</string>
+    <string name="wlan_switch">WLAN</string>
+    <string name="wlan_ap_switch">WLAN热点</string>
+    <string name="fm_switch">FM发射</string>
+    <string name="yjly_switch">云记录仪</string>
+    <string name="close_save_mode">防盗模式</string>
+    <string name="edog_switch">电子狗</string>
+    <string name="battery_switch">息屏</string>
+
+    <string name="bright_mode_adjust">夜间</string>
+    <string name="sleep_time_adjust">自动屏保：</string>
+    <string name="sleep_mode_switch">关闭</string>
+    <string name="text_bright_show">0</string>
+    <string name="text_voice_v66">音量:</string>
+    <string name="text_bright_v66">亮度:</string>
+    <string name="text_auto_saver_v66">自动屏保:</string>
+    <string name="sleep_time_30s">30秒</string>
+    <string name="sleep_time_60s">60秒</string>
+    <string name="sleep_time_5m">5分钟</string>
+    <string name="sleep_time_10m">10分钟</string>
+
+    <string name="open_yjly">开启云记录仪</string>
+    <string name="yjly_hint">行车视频持续同步到云端</string>
+    <string name="front_camera">前摄像头</string>
+    <string name="rear_camera">后摄像头</string>
+    <string name="front_rear_camera">前后摄像头</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">开启(%dS)</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="250dp"
+    android:background="@drawable/dialog_bg_border"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="38dp"
+            android:gravity="center"
+            android:src="@mipmap/ico_cloud_video_white" />
+
+        <TextView
+            android:id="@+id/open_yjly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/open_yjly"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/open_yjly"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/yjly_hint"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#4d4d4d" />
+
+    <RadioGroup
+        android:id="@+id/camera_selected"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableRight="@drawable/radio_button_selector"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            
+            android:textColor="@drawable/light_screensaver_textcolor"
+            android:text="@string/front_camera"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableRight="@drawable/radio_button_selector"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:textColor="@drawable/light_screensaver_textcolor"
+            android:text="@string/rear_camera"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableRight="@drawable/radio_button_selector"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+             android:textColor="@drawable/light_screensaver_textcolor"
+            android:text="@string/front_rear_camera"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/confirm"
+            android:textColor="#00aeff"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:background="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_concel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

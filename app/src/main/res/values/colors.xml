@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#50B73B</color>
+
+    <color name="grey">#6f6f6f</color>
+    <color name="white">#ffffff</color>
+    <color name="white_1">#cccccc</color>
+    <color name="white_2">#999999</color>
+    <color name="black">#000000</color>
+    <color name="black_1">#333333</color>
+    <color name="blue">#0000aa</color>
+    <color name="translucent">#00ffffff</color>
+
+    <color name="text_color">#535151</color>
+
+
+
+    <color name="shortcut_setting_text_checked_color">#ff8a00</color>
+    <color name="shortcut_setting_text_normal_color">#535151</color>
+</resources>

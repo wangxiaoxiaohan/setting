@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="1280px"
+        android:layout_height="140px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_yjly"
+                android:layout_width="56px"
+                android:layout_height="56px"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/ico_yjly_white" />
+
+            <TextView
+                android:id="@+id/tv_yjly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10px"
+                android:text="@string/yjly_switch"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/shortcut_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_edog"
+                android:layout_width="56px"
+                android:layout_height="56px"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/ic_electronic_dog_normal" />
+
+            <TextView
+                android:id="@+id/tv_edog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10px"
+                android:text="@string/edog_switch"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/shortcut_text_size" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cb_ydsj"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5px"
+            android:drawableTop="@drawable/p1_style"
+            android:gravity="center"
+            android:text="@string/mobile_switch"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/shortcut_text_size" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_wlan_hot"
+                android:layout_width="56px"
+                android:layout_height="56px"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/ico_wlanap_white" />
+
+            <TextView
+                android:id="@+id/tv_wlan_hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10px"
+                android:text="@string/wlan_ap_switch"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/shortcut_text_size" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cb_save_mode"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5px"
+            android:drawableTop="@drawable/p7_style"
+            android:gravity="center"
+            android:text="@string/close_save_mode"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/shortcut_text_size" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_wlan"
+                android:layout_width="56px"
+                android:layout_height="56px"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/ico_wlan_white" />
+
+            <TextView
+                android:id="@+id/tv_wlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10px"
+                android:text="@string/wlan_switch"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/shortcut_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="56px"
+                android:layout_height="56px"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/electricity_box" />
+
+            <TextView
+                android:id="@+id/tv_battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10px"
+                android:text="@string/battery_switch"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/shortcut_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="28px"
+        android:layout_marginRight="28px"
+        android:background="#c8c6c6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="86px">
+
+        <RelativeLayout
+            android:layout_width="640px"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_voice_left"
+                android:layout_width="54px"
+                android:layout_height="54px"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="78px"
+                android:src="@mipmap/ic_off_voice" />
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/sb_voice_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/iv_voice_right"
+                android:layout_toRightOf="@+id/iv_voice_left"
+                android:thumb="@mipmap/slide_the_handle" />
+
+            <ImageView
+                android:id="@+id/iv_voice_right"
+                android:layout_width="54px"
+                android:layout_height="54px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="78px"
+                android:src="@mipmap/ic_on_voice" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#ffffff" />
+
+        <RelativeLayout
+            android:layout_width="640px"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/iv_light_left"
+                android:layout_width="54px"
+                android:layout_height="54px"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="78px"
+                android:src="@mipmap/ic_brightness" />
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/sb_light_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/iv_light_right"
+                android:layout_toRightOf="@+id/iv_light_left"
+                android:thumb="@mipmap/slide_the_handle" />
+
+            <ImageView
+                android:id="@+id/iv_light_right"
+                android:layout_width="54px"
+                android:layout_height="54px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="78px"
+                android:src="@mipmap/ic_brightness_1" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#c8c6c6" />
+
+
+</LinearLayout>

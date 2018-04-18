@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/up_container"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:background="@color/translucent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.60"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_yjly"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iv_yjly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@mipmap/ico_yjly_white" />
+
+                <TextView
+                    android:id="@+id/tv_yjly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:clickable="false"
+                    android:text="@string/yjly_switch"
+                    android:textColor="@color/shortcut_setting_text_normal_color"
+                    android:textSize="@dimen/shortcut_text_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_edog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iv_edog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@mipmap/ic_electronic_dog_normal" />
+
+                <TextView
+                    android:id="@+id/tv_edog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:clickable="false"
+                    android:text="@string/edog_switch"
+                    android:textColor="@color/shortcut_setting_text_normal_color"
+                    android:textSize="@dimen/shortcut_text_size" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_ydsj"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iv_ydsj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@mipmap/ico_mobiledata_white" />
+
+                <TextView
+                    android:id="@+id/tv_ydsj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:text="@string/mobile_switch"
+                    android:clickable="false"
+                    android:textColor="@color/shortcut_setting_text_normal_color"
+                    android:textSize="@dimen/shortcut_text_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_wlan_hot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iv_wlan_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@mipmap/ico_wlanap_white" />
+
+                <TextView
+                    android:id="@+id/tv_wlan_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dip"
+                    android:text="@string/wlan_ap_switch"
+                    android:clickable="false"
+                    android:textColor="@color/shortcut_setting_text_normal_color"
+                    android:textSize="@dimen/shortcut_text_size" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_prevention_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iv_prevention_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@mipmap/ico_fd_u" />
+
+                <TextView
+                    android:id="@+id/tv_prevention_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:text="@string/close_save_mode"
+                    android:clickable="false"
+                    android:textColor="@color/shortcut_setting_text_normal_color"
+                    android:textSize="@dimen/shortcut_text_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_wlan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iv_wlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@mipmap/ico_wlan_white" />
+
+                <TextView
+                    android:id="@+id/tv_wlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:text="@string/wlan_switch"
+                    android:clickable="false"
+                    android:textColor="@color/shortcut_setting_text_normal_color"
+                    android:textSize="@dimen/shortcut_text_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_power"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/iv_power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@mipmap/ic_lockscreen" />
+
+                <TextView
+                    android:id="@+id/tv_power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:text="@string/battery_switch"
+                    android:clickable="false"
+                    android:textColor="@color/shortcut_setting_text_normal_color"
+                    android:textSize="@dimen/shortcut_text_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@color/grey"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.40"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_off_voice"/>
+
+                <SeekBar
+                    android:id="@+id/sb_voice_setting"
+                    android:layout_width="330px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dip"
+                    android:max="100"
+                    android:maxHeight="11px"
+                    android:minHeight="11px"
+                    android:paddingLeft="30dip"
+                    android:paddingRight="30dip"
+                    android:thumbOffset="10dp"
+                    android:progressDrawable="@drawable/seek_layerlist"
+                    android:thumb="@mipmap/slide_the_handle" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_on_voice"/>
+            </LinearLayout>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_brightness"/>
+
+                <SeekBar
+                    android:id="@+id/sb_light_setting"
+                    android:layout_width="330px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dip"
+                    android:max="100"
+                    android:maxHeight="11px"
+                    android:minHeight="11px"
+                    android:paddingLeft="30dip"
+                    android:paddingRight="30dip"
+                    android:thumbOffset="10dp"
+                    android:progressDrawable="@drawable/seek_layerlist"
+                    android:thumb="@mipmap/slide_the_handle" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_brightness_1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/down_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:background="@color/translucent">
+
+    </LinearLayout>
+
+</LinearLayout>
